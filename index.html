@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#" data-section="home">Home</a></li>
+            <li><a href="#" data-section="about">About</a></li>
+            <li><a href="#" data-section="services">Services</a></li>
+            <li><a href="#" data-section="portfolio">Portfolio</a></li>
+            <li><a href="#" data-section="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home" class="menu-section">
+            <h1>Welcome!</h1>
+            <p>You are on the <b>Home</b> page. Explore the menu to know more.</p>
+        </section>
+        <section id="about" class="menu-section" style="display:none;">
+            <h1>About Us</h1>
+            <p>You have pressed the <b>About</b> menu button. This page contains details about us.</p>
+        </section>
+        <section id="services" class="menu-section" style="display:none;">
+            <h1>Services</h1>
+            <p>You have pressed the <b>Services</b> menu button. Here are the services we offer.</p>
+        </section>
+        <section id="portfolio" class="menu-section" style="display:none;">
+            <h1>Portfolio</h1>
+            <p>You have pressed the <b>Portfolio</b> menu button. See our featured work below.</p>
+        </section>
+        <section id="contact" class="menu-section" style="display:none;">
+            <h1>Contact</h1>
+            <p>You have pressed the <b>Contact</b> menu button. Reach out to us here.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
